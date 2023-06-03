@@ -1,5 +1,7 @@
 package com.driver.services;
 
+import com.driver.model.User;
+
 public interface ConnectionService {
     User connect(int userId, String countryName) throws Exception;
 
